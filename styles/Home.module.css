@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -113,4 +113,25 @@
     width: 100%;
     flex-direction: column;
   }
+} */
+
+
+/* .hero--circle{
+  width: 200px;
+  height: 200px;
+  background-color: #FFF8F5;
+}
+
+.hero--image{
+  height: 536px;
+  width: 536px;
+} */
+
+.testimonial{
+  width: 1195px;
+  margin: 75px auto;
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
