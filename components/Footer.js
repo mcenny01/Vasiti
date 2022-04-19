@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "../styles/Footer.module.css"
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 function Footer() {
   return (
     <footer className={styles.container}>
       <div className={styles.wrapper}>
-        <div>
+        <div className="w-52">
           <h1 className={styles.headerOne}>Company</h1>
           <ul className={styles.list}>
             <li className={styles.link}>About us</li>
@@ -15,7 +16,7 @@ function Footer() {
             <li className={styles.link}>Press & Media</li>
           </ul>
         </div>
-        <div>
+        <div className="w-52">
           <h1 className={styles.headerOne}>Products</h1>
           <ul className={styles.list}>
             <li className={styles.link}>Marketplace</li>
@@ -25,7 +26,7 @@ function Footer() {
             <li className={styles.link}>Services</li>
           </ul>
         </div>
-        <div>
+        <div className="w-52">
           <h1 className={styles.headerOne}>Careers</h1>
           <ul className={styles.list}>
             <li className={styles.link}>Become a Campus Rep</li>
@@ -34,7 +35,7 @@ function Footer() {
             <li className={styles.link}>Become an Affiliate</li>
           </ul>
         </div>
-        <div>
+        <div className="w-52">
           <h1 className={styles.headerOne}>Get in touch</h1>
           <ul className={styles.list}>
             <li className={styles.link}>Contact us</li>
@@ -43,13 +44,17 @@ function Footer() {
             <li className={styles.link}>Help/FAQs</li>
           </ul>
         </div>
-        <div>
+        <div className="w-52">
           <h1 className={styles.headerOne}>Join our community</h1>
           <div className={styles.icons}>
-          <i class="bi bi-facebook" ></i>
-          <i class="bi bi-instagram" ></i>
-          <i class="bi bi-twitter" ></i>
-          <i class="bi bi-linkedin" ></i>
+          {/* <i class="bi bi-facebook" ></i> */}
+          <BsFacebook/>
+          {/* <i class="bi bi-instagram" ></i> */}
+          <BsInstagram/>
+          {/* <i class="bi bi-twitter" ></i> */}
+          <BsTwitter />
+          {/* <i class="bi bi-linkedin" ></i> */}
+          <BsLinkedin />
           </div>
           <p>Email Newsletter</p>
         </div>

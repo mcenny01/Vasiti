@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/Testimonial.module.css";
+import Image from "next/image";
 
 function TestimonialCard({ img, name, location, user, testimonial }) {
   return (
     <div className={styles.testimonialContainer}>
       <div className="w-72">
-        <img src={`${img}`} alt="" className="w-50 h-50 mb-8" />
+        <Image src={`${img}`} alt="" className="w-50 h-50 mb-8" width='200px' height='200px'/>
         <div>
           <h1 className="text-2xl font-semibold mb-2">{name}</h1>
           <div className="flex mb-6">

@@ -35,7 +35,7 @@ const SecondTestimonialCard = SecondTestimonial.map((testimonial) => (
 const FirstCustomerExperience = <FirstCustomerExperienceCard
 key={1}
 name='Tolu & Joy’s Experience'
-img='./images/black-beautiful-ladies-smiling 1.png'
+img='/images/black-beautiful-ladies-smiling 1.png'
 user='CUSTOMER'
 testimonial='I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back!'
 color='dark'
@@ -44,7 +44,7 @@ color='dark'
 const SecondCustomerExperience = <SecondCustomerExperienceCard
 key={1}
 name='Josiah’s Experience'
-img='./images/woman-shoppingbag-card 1.png'
+img='/images/woman-shoppingbag-card 1.png'
 user='VENDOR'
 testimonial='I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back!'
 color='light'

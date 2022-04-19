@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Hero.module.css'
+import Image from 'next/image'
 
 function Hero() {
   return (
@@ -10,7 +11,7 @@ function Hero() {
         </div>
         <div className={styles.heroImageBox}>
             <div className={styles.heroCircle}></div>
-            <img src='./images/Testimonial image 1.png' className='w-96 h-96'/>
+            <Image src='/images/Testimonial image 1.png' className='w-96 h-96' alt='' width='536px' height='568px'/>
         </div>
     </div>
     

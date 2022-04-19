@@ -1,4 +1,4 @@
-export default [
+const DataOne = [
     {
       id: 1,
       img: "https://drive.google.com/uc?export=view&id=1DJJzIwyTzOgcMgzoQHSqEwMP1-Hr6HS9",
@@ -51,3 +51,5 @@ export default [
       testimonial: `Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Elit aute irure tempor cupidatat incididunt sint deser unt ut voluptate aute id deserunt nisi. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.`,
     },
   ]
+
+  export default DataOne

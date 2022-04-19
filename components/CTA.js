@@ -1,15 +1,18 @@
 import React from "react";
 import styles from "../styles/CTA.module.css";
+import Image from "next/image";
 
 function CTA() {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className="static">
-          <img
-            src="./images/subscribe-banner 1.png"
+          <Image
+            src="/images/subscribe-banner 1.png"
             alt=""
             className="relative -top-9 left-0"
+            width='437px'
+            height='437px'
           />
         </div>
         <div >

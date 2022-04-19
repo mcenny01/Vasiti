@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/CustomerExperience.module.css";
+import Image from "next/image";
 
 function CustomerExperienceText({ name, img, user, testimonial, color }) {
   return (
@@ -16,6 +17,7 @@ function CustomerExperienceText({ name, img, user, testimonial, color }) {
           {user}
         </h5>
         <p className="mb-12">{testimonial}</p>
+        <div className={styles.ctaLink}>
         <h5
           className={
             color === "dark"
@@ -25,10 +27,13 @@ function CustomerExperienceText({ name, img, user, testimonial, color }) {
         >
           Share your own story!
         </h5>
-        <img src="./images/Vector 3.svg" alt="" className={styles.mark} />
+        <Image src="/images/Vector 3.svg" alt="" className={styles.mark} width={295} height={10} objectFit="contain"/>
+        </div>
       </div>
     </div>
   );
 }
 
 export default CustomerExperienceText;
+
+// width={295} height={10}

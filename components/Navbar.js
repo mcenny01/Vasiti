@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 
 function Navbar() {
   return (
     <nav className="shadow-gray-300 shadow text-xs font-light px-2 py-4">
       <div className="flex gap-10 items-center max-w-5xl mx-auto pb-4">
-        <img src="./images/Vasiti-Logo.svg" alt="Vasiti Logo" />
+        <Image src="/images/Vasiti-Logo.svg" alt="Vasiti Logo" width='150px' height='35px'/>
         <ul className="flex gap-10 ml-auto">
           <li>ABOUT US</li>
           <li>STORIES</li>
