@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 function Hero() {
   return (
-    <div className='flex max-w-5xl mx-auto items-center justify-between'>
+    <div className='flex flex-col md:flex-row max-w-5xl mx-auto items-center justify-between overflow-hidden'>
         <div>
             <h1 className='text-3xl font-bold mb-4 text-black'>Amazing <br/> Experiences from Our <br/> Wonderful Customers</h1>
-            <p className='text-xs font-light'>Here is what customers and vendors are saying about <br/> us, you can share your stories with us too.</p>
+            <p className='text-sm font-light'>Here is what customers and vendors are saying about <br/> us, you can share your stories with us too.</p>
         </div>
         <div className={styles.heroImageBox}>
             <div className={styles.heroCircle}></div>
