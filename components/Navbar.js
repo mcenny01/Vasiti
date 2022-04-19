@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className="pl-12 md:pl-0 shadow-gray-300 shadow text-xs font-light px-2 py-4 ">
+    <nav className="pl-12 md:pl-0 md:shadow-gray-300 md:shadow text-xs font-light px-2 py-4 ">
       <div className="flex gap-10 items-center max-w-5xl mx-auto pb-4">
         <Image
           src="https://drive.google.com/uc?export=view&id=1JuOUUYYUmexWJlTX27mc8y8IV7osCxws"
