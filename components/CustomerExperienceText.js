@@ -27,7 +27,7 @@ function CustomerExperienceText({ name, img, user, testimonial, color }) {
         >
           Share your own story!
         </h5>
-        <Image src="/images/Vector 3.svg" alt="" className={styles.mark} width={295} height={10} objectFit="contain"/>
+        <Image src="https://drive.google.com/uc?export=view&id=1qcqAiTt_RZgYMyi_GststW36ceJsYbzj" alt="" className={styles.mark} width={295} height={10} objectFit="contain"/>
         </div>
       </div>
     </div>

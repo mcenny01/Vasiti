@@ -11,7 +11,7 @@ function Hero() {
         </div>
         <div className={styles.heroImageBox}>
             <div className={styles.heroCircle}></div>
-            <Image src='/images/Testimonial image 1.png' className='w-96 h-96' alt='' width='536px' height='568px'/>
+            <Image src='https://drive.google.com/uc?export=view&id=105w02RehGp-oo2zZItGuSESCNe-_cfl8' className='w-96 h-96' alt='' width='536px' height='568px'/>
         </div>
     </div>
     

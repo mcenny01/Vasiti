@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="shadow-gray-300 shadow text-xs font-light px-2 py-4">
       <div className="flex gap-10 items-center max-w-5xl mx-auto pb-4">
-        <Image src="/images/Vasiti-Logo.svg" alt="Vasiti Logo" width='150px' height='35px'/>
+        <Image src="https://drive.google.com/uc?export=view&id=1iWKrBToCZFFr5ytFzK2kGLf6N6HwbpEh" alt="Vasiti Logo" width='150px' height='35px'/>
         <ul className="flex gap-10 ml-auto">
           <li>ABOUT US</li>
           <li>STORIES</li>

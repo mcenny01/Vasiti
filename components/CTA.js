@@ -8,7 +8,7 @@ function CTA() {
       <div className={styles.wrapper}>
         <div className="static">
           <Image
-            src="/images/subscribe-banner 1.png"
+            src="https://drive.google.com/uc?export=view&id=1VReGA6VP5BtVumoaK6z-Dtz_OevXo1ur"
             alt=""
             className="relative -top-9 left-0"
             width='437px'
